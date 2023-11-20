@@ -6,6 +6,7 @@ public abstract class PlayerState : BaseState
 
     public PlayerState(Player player, PlayerStateMachine stateMachine)
     {
+        _player = player;
         _stateMachine = stateMachine;
     }
  
